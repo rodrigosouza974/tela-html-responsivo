@@ -1,0 +1,42 @@
+/* Estilos para o grid */
+.container {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.image-large {
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 2;
+}
+
+.image-small {
+  width: 100%;
+}
+
+/* Estilos para o cabeçalho (topo) */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.header img {
+  max-width: 100px; /* Defina o tamanho máximo do logo */
+}
+
+/* Estilos para o rodapé (footer) */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
